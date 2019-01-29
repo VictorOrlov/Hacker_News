@@ -6,7 +6,7 @@ import Select from '../../templates/select';
 import Pagination from '../../templates/pagination';
 import s from './HNews.module.css';
 
-const BASE_PATCH = 'http://hn.algolia.com/api/v1';
+const BASE_PATCH = '//hn.algolia.com/api/v1';
 const SEARCH_PATCH = '/search';
 const SEARCH_PARAM = 'query=';
 const PAGE_HITS = 'hitsPerPage=';
